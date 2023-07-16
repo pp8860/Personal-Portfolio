@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diva</title>
+
+
+</head>
+<link rel="stylesheet" href="1.css">
+<style>
+    body {
+        background: url('1bg.jpg');
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+    .left {
+        /* border: 2px solid blue; */
+        position: absolute;
+        display: inline-block;
+        left: 20px;
+        top: 20px;
+
+
+    }
+
+    .mid {
+        display: block;
+        /* border: 2px solid yellow; */
+        margin: 20px auto;
+        width: 40%;
+
+
+
+    }
+
+    .right {
+        /* border: 2px solid blueviolet; */
+        position: absolute;
+        display: inline-block;
+        right: 34px;
+        top: 20px;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+
+    .navbar li a {
+        color: black;
+        text-decoration: none;
+        padding: 34px 23px;
+
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: red;
+
+    }
+
+    .left img {
+        width: 120px;
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 19px;
+        font-size: 16px;
+        font-style: normal;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .btn {
+        margin: 0px 10px;
+        padding: 4px 14px;
+        border: 2px solid palevioletred;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        cursor: pointer;
+    }
+
+    .btn :hover {
+        background-color: peachpuff;
+        color: red;
+    }
+
+    .container {
+        border: 2px solid black;
+        margin: 173px 225px;
+        padding: 81px;
+        width: 55%;
+        border-radius: 79px
+    }
+
+    .form-group input {
+        font-family: 'Times New Roman', Times, serif;
+        display: block;
+        text-align: center;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid blue;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 10px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        width: 30%;
+        display: block;
+        padding: 1px;
+        margin: 20px auto;
+        border-radius: 70px;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="2lg.jpg" alt="">
+            <div>Diva</div>
+
+        </div>
+        <div class="mid">
+
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Beauty Center</a></li>
+
+
+
+
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button><button class="btn">Email</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>You have right to look beautiful!!</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your phone number">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+
+            </div>
+            <button class="submit">Submit Now</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
